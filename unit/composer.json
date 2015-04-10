@@ -1,0 +1,16 @@
+{
+    "name": "root/unit",
+    "authors": [
+        {
+            "name": "Julian Locke",
+            "email": "julianlocke@hotmail.com"
+        }
+    ],
+    "require-dev": {
+      "phpspec/phpspec": "~2.0"
+    },
+    "config": {
+      "bin-dir": "bin"
+    },
+    "autoload": {"psr-0": {"": "src"}}
+}
